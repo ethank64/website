@@ -1,0 +1,63 @@
+/*Setup*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: white;
+}
+
+nav {
+  text-align: center;
+}
+
+/*Element Tags*/
+a {
+  text-decoration: none;
+  color: hsl(205, 100%, 9%);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+  font-size: 20px;
+}
+
+/*Ids*/
+
+
+/*Classes*/
+.project {
+  width: 75%;
+  height: 250px;
+  border: 2px solid #001B2E;
+  margin: 0px auto;
+}
+
+.description {
+  color: blue;
+}
+
+/*Specific Styles*/
+div img {
+  width: 75%;
+  height: 250px;
+  float: left;
+  display: inline;
+  border-right: 2px solid #001B2E;
+}
+
+nav li {
+  color: #001B2E;
+  display: inline;
+  padding: 0% 10%;
+  font-size: 35px;
+  border-bottom: 2px solid #001B2E;
+  border-left: 2px solid #001B2E;
+  border-right: 2px solid #001B2E;
+  background: white;
+}
+
