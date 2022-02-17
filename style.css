@@ -35,7 +35,7 @@ nav {
   text-align: center;
 }
 
-.nav-item {
+nav li {
   color: #001B2E;
   display: inline;
   padding: 0% 10%;
