@@ -1,4 +1,4 @@
-/*Setup*/
+/*Global*/
 * {
   padding: 0px;
   margin: 0px;
@@ -8,11 +8,7 @@ body {
   background: white;
 }
 
-nav {
-  text-align: center;
-}
-
-/*Element Tags*/
+/*Typography*/
 a {
   text-decoration: none;
   color: hsl(205, 100%, 9%);
@@ -22,35 +18,24 @@ a:hover {
   text-decoration: underline;
 }
 
-div {
-  font-size: 20px;
+.description {
+  color: blue;
 }
 
-/*Ids*/
-
-
-/*Classes*/
+/*Layout*/
 .project {
   width: 75%;
   height: 250px;
   border: 2px solid #001B2E;
   margin: 0px auto;
+  font-size: 20px;
 }
 
-.description {
-  color: blue;
+nav {
+  text-align: center;
 }
 
-/*Specific Styles*/
-div img {
-  width: 75%;
-  height: 250px;
-  float: left;
-  display: inline;
-  border-right: 2px solid #001B2E;
-}
-
-nav li {
+.nav-item {
   color: #001B2E;
   display: inline;
   padding: 0% 10%;
@@ -61,3 +46,9 @@ nav li {
   background: white;
 }
 
+.thumbnail {
+  width: 75%;
+  float: left;
+  display: inline;
+  border-right: 2px solid #001B2E;
+}
